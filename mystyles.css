@@ -1,0 +1,90 @@
+h1, h2, h3, h4 {
+  line-height: 30 px;
+  font-family: "Century Gothic", "Comic Sans MS";
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1, h2, h3, h4, footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 400%;
+  color: deepskyblue;
+}
+
+h2 {
+  font-size: 200%;
+  color: deepskyblue;
+}
+
+h3 {
+  font-size: 150%;
+  color: darkblue;
+}
+
+h4 {
+  font-size: 120%;
+  color: deeppink;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: gray;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "Century Gothic", "Comic Sans MS";
+}
+
+p {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+}
+
+footer {
+  font-size: 30 px;
+  color: deeppink;
+  font-family: "Castellar";
+}
+
+nav {
+  background-color: powderblue;
+  font-size: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  padding: 16px 32px;
+  display: block;
+  color: gray;
+  text-decoration: none;
+}
+
+li a:link, li a:visited {
+  color: gray;
+}
+
+li a:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+li a:active {
+  color: dodgerblue;
+}
