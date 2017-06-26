@@ -82,7 +82,7 @@ li a {
 
 li.nav_bar {
   float: left;
-} /* lists/links for navigation bar */
+} /* lists for navigation bar */
 
 a:link, a:visited {
   color: gray;
