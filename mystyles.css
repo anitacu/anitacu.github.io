@@ -85,6 +85,7 @@ li.nav_bar {
 } /* lists/links for navigation bar */
 
 a:link, a:visited {
+  color: gray;
   text-decoration: none; /* removes underline */
 }
 
@@ -143,5 +144,5 @@ i[class^="icon-"]:before { /* removes underline for FontAwesome icons */
 
 icon {
   text-align: left;
-  color: hotpink;
+  color: ;
 }
