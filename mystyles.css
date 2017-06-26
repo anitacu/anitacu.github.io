@@ -141,3 +141,7 @@ i[class^="icon-"]:before { /* removes underline for FontAwesome icons */
 	display: inline-block;
 	text-decoration: none;
 }
+
+.fa-cog {
+  color: gray;
+}
