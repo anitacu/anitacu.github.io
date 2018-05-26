@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+@import url("https://fonts.googleapis.com/css?family=Raleway+Dots");
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   line-height: 10px;
   font-family: "Just Another Hand";
   margin-top: 5%;
@@ -23,20 +24,22 @@ h2 {
 
 h3 {
   font-size: 300%;
-  line-height: 1.5;
+  line-height: 1.25;
   color: silver;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
 }
 
 h4 {
-  font-size: 200%;
+  font-size: 180%;
+  font-family: "Raleway Dots";
   color: deepskyblue;
   text-align: left;
   padding-left: 400px;
 }
 
 h5 {
-  font-size: 150%;
+  font-size: 80%;
+  font-family: "Raleway Dots";
   text-align: right;
   padding-right: 400px;
 }
@@ -63,9 +66,9 @@ p {
 }
 
 footer {
-  font-size: 15px;
+  font-size: 30px;
   color: hotpink;
-  font-family: "Castellar";
+  font-family: "Just Another Hand";
   padding-bottom: 50px;
   text-align: right;
   margin-right: 50px;
