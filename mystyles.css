@@ -1,39 +1,42 @@
-h1, h2, h3 {
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+
+h1, h2, h3, h4, h5 {
   line-height: 10px;
-  font-family: "Century Gothic";
+  font-family: "Just Another Hand";
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 800%;
   color: deepskyblue;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 0px;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 300%;
   color: deepskyblue;
   padding-top: 50px;
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 300%;
+  line-height: 1.5;
   color: silver;
   padding-bottom: 25px;
 }
 
 h4 {
-  font-size: 125%;
+  font-size: 200%;
   color: deepskyblue;
   text-align: left;
   padding-left: 400px;
 }
 
 h5 {
-  font-size: 90%;
+  font-size: 150%;
   text-align: right;
   padding-right: 400px;
 }
@@ -69,12 +72,13 @@ footer {
 }
 
 nav {
-  font-size: 25px;
+  font-size: 40px;
+  font-family: "Just Another Hand";
   list-style-type: none;
   margin: 0px;
   width: 100%;
   top: 0px;
-  left: 0px;
+  left: 5px;
   padding: 0px 0px;
   position: fixed;
   background-color: white;
@@ -84,6 +88,21 @@ nav {
 
 ul {
   list-style-type: none;
+}
+
+ol {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.advice {
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: "Just Another Hand";
+  color: pink;
 }
 
 li a {
@@ -106,35 +125,6 @@ a:hover {
   color: deepskyblue;
   text-decoration: none;
 }
-
-/*
-.projects_info {
-  position: relative;
-  height: 500;
-}
-
-.projects_img {
-}
-
-.projects_description {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.3;
-  color: white;
-  visibility: hidden;
-  background: mistyrose;
-  font-family: "Arial Narrow";
-  transition: opacity .4s, visibility .4s;
-}
-
-.projects_info:hover .projects_description {
-  visibility: visible;
-  opacity: 1;
-}
-*/
 
 .img-circle-text {
   margin-left: 700px;
