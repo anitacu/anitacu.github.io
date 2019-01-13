@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
 @import url("https://fonts.googleapis.com/css?family=Raleway+Dots");
+@import url("https://fonts.googleapis.com/css?family=Thasadith");
 
 h1, h2, h3 {
   line-height: 10px;
@@ -54,7 +55,7 @@ body, .img-text {
   font-size: 20px;
   line-height: 20px;
   text-align: center;
-  font-family: "Garamond", "Century Gothic";
+  font-family: "Thasadith";
 }
 
 p {
