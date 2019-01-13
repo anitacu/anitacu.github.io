@@ -6,7 +6,7 @@
 h1, h2, h3 {
   line-height: 10px;
   font-family: "Just Another Hand";
-  margin-top: 5%;
+  margin-top: 8%;
   margin-bottom: 5%;
   text-align: center;
 }
@@ -83,7 +83,7 @@ nav {
   margin: 0px;
   width: 100%;
   top: 0px;
-  left: 5px;
+  left: 0px;
   padding: 10px 10px 10px 10px;
   position: fixed;
   background-color: white;
@@ -117,9 +117,13 @@ li a {
   color: gray;
 }
 
-li.nav_bar {
+li.nav-bar-left {
   float: left;
-} /* lists for navigation bar */
+} /* lists for navigation bar, shifts to left */
+
+li.nav-bar-right {
+  float: right;
+} /* lists for navigation bar, shifts to right */
 
 a:link, a:visited {
   color: gray;
