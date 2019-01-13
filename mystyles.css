@@ -153,13 +153,43 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-.img-background-blog { /* need two divisions so that text is not as transparent as background image */
+.img-background { /* need two divisions so that text is not as transparent as background image */
   position: relative;
   z-index: 5;
   color: gray;
 }
 
-.img-background-blog .photo {
+.img-background .aboutme {
+  position: absolute;
+  z-index: -1;
+  filter: alpha(opacity=20);
+  background-image: url("aesthetic-desk.jpg");
+  opacity: 0.25;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -100px;
+  bottom: 0;
+  left: 0;
+  right: -100px;
+}
+
+.img-background .blog {
+  position: absolute;
+  z-index: -1;
+  filter: alpha(opacity=20);
+  background-image: url("modern-desk.jpg");
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -100px;
+  bottom: 0;
+  left: 0;
+  right: -100px;
+}
+
+.img-background .teaching {
   position: absolute;
   z-index: -1;
   filter: alpha(opacity=20);
