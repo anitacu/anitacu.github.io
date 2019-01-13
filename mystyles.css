@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
-@import url("https://fonts.googleapis.com/css?family=Raleway+Dots");
+/*@import url("https://fonts.googleapis.com/css?family=Raleway+Dots");*/
+@import url("https://fonts.googleapis.com/css?family=Passion+One");
 @import url("https://fonts.googleapis.com/css?family=Thasadith");
 
 h1, h2, h3 {
@@ -31,16 +32,16 @@ h3 {
 }
 
 h4 {
-  font-size: 180%;
-  font-family: "Raleway Dots";
+  font-size: 200%;
+  font-family: "Passion One";
   color: deepskyblue;
   text-align: left;
   padding-left: 400px;
 }
 
 h5 {
-  font-size: 80%;
-  font-family: "Raleway Dots";
+  font-size: 90%;
+  font-family: "Passion One";
   text-align: right;
   padding-right: 400px;
 }
