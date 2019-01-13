@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
-/*@import url("https://fonts.googleapis.com/css?family=Raleway+Dots");*/
 @import url("https://fonts.googleapis.com/css?family=Passion+One");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
 @import url("https://fonts.googleapis.com/css?family=Thasadith");
 
 h1, h2, h3 {
@@ -41,7 +41,7 @@ h4 {
 
 h5 {
   font-size: 90%;
-  font-family: "Passion One";
+  font-family: "Shadows Into Light Two";
   text-align: right;
   padding-right: 400px;
 }
